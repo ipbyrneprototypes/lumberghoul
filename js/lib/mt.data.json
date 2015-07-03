@@ -293,6 +293,43 @@
 		"name": "objects",
 		"contents": [
 			{
+				"assetId": "c4b4843d-be54-4058-9292-9073ac937ed2",
+				"x": 1027.142857142857,
+				"y": 98.57142857142856,
+				"type": 0,
+				"anchorX": 0,
+				"anchorY": 0,
+				"userData": {},
+				"physics": {
+					"enable": 0
+				},
+				"scaleX": 1,
+				"scaleY": 1,
+				"angle": 0,
+				"alpha": 1,
+				"frame": 4,
+				"isVisible": 1,
+				"isLocked": 0,
+				"contents": [],
+				"width": 480,
+				"height": 120,
+				"frameName": "",
+				"id": "tmp1435961416544",
+				"name": "trunk1",
+				"index": -1,
+				"fullPath": "/trunk1",
+				"movies": {
+					"__main": {
+						"frames": [],
+						"info": {
+							"fps": 60
+						},
+						"subdata": []
+					}
+				},
+				"assetKey": "/trunk.png"
+			},
+			{
 				"id": "tmp1435497483408",
 				"name": "popup",
 				"x": 240,

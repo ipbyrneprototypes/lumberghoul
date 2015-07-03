@@ -17,14 +17,15 @@ window.rocky.state.soundmenu = {
 		playButton.inputEnabled = true;
 		playButton.events.onInputDown.add(function() {
 			window.rocky.state.load.soundArray[0].play();
-			window.rocky.state.load.soundArray[1].play();("", "", 0.3,"", "");
+			window.rocky.state.load.create.playSound = true;
 			this.game.state.start("menu");
 		}, this);
 		
 		var xButton = this.sound.children[4];
 		xButton.inputEnabled = true;
 		xButton.events.onInputDown.add(function() {
-			this.game.state.start("menuns");
+			window.rocky.state.load.create.playSound = false
+			this.game.state.start("menu");
 		}, this);
 		
 		
@@ -49,12 +50,15 @@ window.rocky.state.menu = {
 		this.bg = mt.create('bg');
         this.trunk = mt.create('trunk');
 		this.menu = mt.create('menu');
+		window.rocky.state.load.soundArray[1].play('','', 0.5, true, false);
 		
 		
 		var playButton = this.menu.children[1];
 		playButton.inputEnabled = true;
 		playButton.events.onInputDown.add(function() {
-			window.rocky.state.load.soundArray[0].play();
+			if(window.rocky.state.load.create.playSound) {
+				window.rocky.state.load.soundArray[0].play();
+			}
 			this.game.state.start("play");
 		}, this);
 		
@@ -68,8 +72,10 @@ window.rocky.state.menu = {
 		var soundButton = this.menu.children[5];
 		soundButton.inputEnabled = true;
 		soundButton.events.onInputDown.add(function() {
-			window.rocky.state.load.soundArray[0].play();
-			window.rocky.state.load.soundArray[1].stop();
+			if(window.rocky.state.load.create.playSound) {
+				window.rocky.state.load.soundArray[0].play();
+				window.rocky.state.load.soundArray[1].stop();
+			}
 			this.game.state.start("soundmenu");
 		}, this);
 		
@@ -80,46 +86,3 @@ window.rocky.state.menu = {
 	}
 };
 
-
-// NO SOUND //
-"use strict";
-window.rocky.state.menuns = {
-	preload: function(){
-	},
-	
-	create: function(){
-		// you can create menu group in map editor and load it like this:
-		// mt.create("menu");
-		this.bg = mt.create('bg');
-        this.trunk = mt.create('trunk');
-		this.menuns = mt.create('menu');
-		
-		
-		
-		
-		var playButton = this.menuns.children[1];
-		playButton.inputEnabled = true;
-		playButton.events.onInputDown.add(function() {
-			this.game.state.start("playns");
-		}, this);
-		
-
-        var best = parseInt(localStorage.best);
-
-		if(best) {
-        	this.menuns.children[4].setText(best);
-		};
-		
-		var soundButton = this.menuns.children[5];
-		soundButton.inputEnabled = true;
-		soundButton.events.onInputDown.add(function() {
-			
-			this.game.state.start("soundmenu");
-		}, this);
-		
-	},
-	
-	update: function(){
-		
-	}
-};

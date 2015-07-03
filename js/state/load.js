@@ -36,6 +36,7 @@ window.rocky.state.load = {
 	},
 	
 	create: function(){
+		var playSound;
 		
 		// Sounds
 		this.soundArray[0] = window.rocky.game.add.audio("chop", 1);
