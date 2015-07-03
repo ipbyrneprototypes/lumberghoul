@@ -89,6 +89,24 @@ window.mt = window.mt || {}; window.mt.data = {
 				}
 			},
 			{
+				"id": "3db460cb-cf8d-41fb-9e6e-5d4e60e68555",
+				"name": "cross.png",
+				"fullPath": "/cross.png",
+				"key": "/cross.png",
+				"width": 80,
+				"height": 86,
+				"frameWidth": 80,
+				"frameHeight": 86,
+				"frameMax": -1,
+				"margin": 0,
+				"spacing": 0,
+				"anchorX": 0,
+				"anchorY": 0,
+				"fps": 10,
+				"updated": 1435703094835,
+				"atlas": ""
+			},
+			{
 				"id": "2fdde8fa-5a7f-4400-a47f-524705f5cba0",
 				"name": "hammer.png",
 				"fullPath": "/hammer.png",
@@ -179,6 +197,24 @@ window.mt = window.mt || {}; window.mt.data = {
 				"atlas": ""
 			},
 			{
+				"id": "6b23ef07-69f0-49bf-9b0a-7f176628e8bb",
+				"name": "scarecrow.png",
+				"fullPath": "/scarecrow.png",
+				"key": "/scarecrow.png",
+				"width": 60,
+				"height": 54,
+				"frameWidth": 60,
+				"frameHeight": 54,
+				"frameMax": -1,
+				"margin": 0,
+				"spacing": 0,
+				"anchorX": 0,
+				"anchorY": 0,
+				"fps": 10,
+				"updated": 1435703632594,
+				"atlas": ""
+			},
+			{
 				"id": "ec2e5dff-626b-44f7-8ee6-5d0845b3bbd1",
 				"name": "stump.png",
 				"fullPath": "/stump.png",
@@ -215,7 +251,7 @@ window.mt = window.mt || {}; window.mt.data = {
 				"atlas": ""
 			},
 			{
-				"id": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+				"id": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 				"name": "trunk.png",
 				"fullPath": "/trunk.png",
 				"key": "/trunk.png",
@@ -229,11 +265,8 @@ window.mt = window.mt || {}; window.mt.data = {
 				"anchorX": 0,
 				"anchorY": 0,
 				"fps": 10,
-				"updated": 1435702348280,
-				"atlas": "",
-				"physics": {
-					"enable": 0
-				}
+				"updated": 1435962424985,
+				"atlas": ""
 			},
 			{
 				"id": "7cb357f7-78d9-456a-9837-204169b233a8",
@@ -252,45 +285,9 @@ window.mt = window.mt || {}; window.mt.data = {
 				"fps": 10,
 				"updated": 1435600181123,
 				"atlas": ""
-			},
-			{
-				"id": "3db460cb-cf8d-41fb-9e6e-5d4e60e68555",
-				"name": "cross.png",
-				"fullPath": "/cross.png",
-				"key": "/cross.png",
-				"width": 80,
-				"height": 86,
-				"frameWidth": 80,
-				"frameHeight": 86,
-				"frameMax": -1,
-				"margin": 0,
-				"spacing": 0,
-				"anchorX": 0,
-				"anchorY": 0,
-				"fps": 10,
-				"updated": 1435703094835,
-				"atlas": ""
-			},
-			{
-				"id": "6b23ef07-69f0-49bf-9b0a-7f176628e8bb",
-				"name": "scarecrow.png",
-				"fullPath": "/scarecrow.png",
-				"key": "/scarecrow.png",
-				"width": 60,
-				"height": 54,
-				"frameWidth": 60,
-				"frameHeight": 54,
-				"frameMax": -1,
-				"margin": 0,
-				"spacing": 0,
-				"anchorX": 0,
-				"anchorY": 0,
-				"fps": 10,
-				"updated": 1435703632594,
-				"atlas": ""
 			}
 		],
-		"count": 26
+		"count": 30
 	},
 	"objects": {
 		"name": "objects",
@@ -809,10 +806,10 @@ window.mt = window.mt || {}; window.mt.data = {
 						"assetKey": "/popup.png"
 					}
 				],
-				"isVisible": true,
+				"isVisible": false,
 				"isLocked": 0,
 				"isFixedToCamera": 0,
-				"isClosed": false,
+				"isClosed": true,
 				"scaleX": 1,
 				"scaleY": 1,
 				"alpha": 1,
@@ -1541,7 +1538,7 @@ window.mt = window.mt || {}; window.mt.data = {
 				"assetKey": "/character.png"
 			},
 			{
-				"id": "tmp1435701899911",
+				"id": "tmp1435961416517",
 				"name": "trunk",
 				"x": 0,
 				"y": 0,
@@ -1549,7 +1546,7 @@ window.mt = window.mt || {}; window.mt.data = {
 				"angle": 0,
 				"contents": [
 					{
-						"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+						"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 						"x": 0,
 						"y": 0,
 						"type": 0,
@@ -1570,14 +1567,14 @@ window.mt = window.mt || {}; window.mt.data = {
 						"width": 480,
 						"height": 120,
 						"frameName": "",
-						"id": "tmp1435701899916",
-						"name": "trunk4",
+						"id": "tmp1435961416536",
+						"name": "trunk5",
 						"index": -1,
-						"fullPath": "/trunk/trunk4",
+						"fullPath": "/trunk/trunk5",
 						"assetKey": "/trunk.png"
 					},
 					{
-						"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+						"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 						"x": 0,
 						"y": 120,
 						"type": 0,
@@ -1598,14 +1595,14 @@ window.mt = window.mt || {}; window.mt.data = {
 						"width": 480,
 						"height": 120,
 						"frameName": "",
-						"id": "tmp1435701899915",
-						"name": "trunk3",
+						"id": "tmp1435961416535",
+						"name": "trunk4",
 						"index": -1,
-						"fullPath": "/trunk/trunk3",
+						"fullPath": "/trunk/trunk4",
 						"assetKey": "/trunk.png"
 					},
 					{
-						"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+						"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 						"x": 0,
 						"y": 240,
 						"type": 0,
@@ -1626,14 +1623,14 @@ window.mt = window.mt || {}; window.mt.data = {
 						"width": 480,
 						"height": 120,
 						"frameName": "",
-						"id": "tmp1435701899914",
-						"name": "trunk2",
+						"id": "tmp1435961416534",
+						"name": "trunk3",
 						"index": -1,
-						"fullPath": "/trunk/trunk2",
+						"fullPath": "/trunk/trunk3",
 						"assetKey": "/trunk.png"
 					},
 					{
-						"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+						"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 						"x": 0,
 						"y": 360,
 						"type": 0,
@@ -1654,14 +1651,14 @@ window.mt = window.mt || {}; window.mt.data = {
 						"width": 480,
 						"height": 120,
 						"frameName": "",
-						"id": "tmp1435701899913",
-						"name": "trunk1",
+						"id": "tmp1435961416533",
+						"name": "trunk2",
 						"index": -1,
-						"fullPath": "/trunk/trunk1",
+						"fullPath": "/trunk/trunk2",
 						"assetKey": "/trunk.png"
 					},
 					{
-						"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+						"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 						"x": 0,
 						"y": 480,
 						"type": 0,
@@ -1682,17 +1679,17 @@ window.mt = window.mt || {}; window.mt.data = {
 						"width": 480,
 						"height": 120,
 						"frameName": "",
-						"id": "tmp1435701899912",
-						"name": "trunk",
+						"id": "tmp1435961416532",
+						"name": "trunk1",
 						"index": -1,
-						"fullPath": "/trunk/trunk",
+						"fullPath": "/trunk/trunk1",
 						"assetKey": "/trunk.png"
 					}
 				],
-				"isVisible": true,
+				"isVisible": 1,
 				"isLocked": 0,
 				"isFixedToCamera": 0,
-				"isClosed": true,
+				"isClosed": false,
 				"scaleX": 1,
 				"scaleY": 1,
 				"alpha": 1,
@@ -1709,11 +1706,7 @@ window.mt = window.mt || {}; window.mt.data = {
 						},
 						"subdata": []
 					}
-				},
-				"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
-				"frame": 4,
-				"frameName": "",
-				"assetKey": "/trunk.png"
+				}
 			},
 			{
 				"id": "tmp1435495834712",
@@ -1953,7 +1946,7 @@ window.mt = window.mt || {}; window.mt.data = {
 						"assetKey": "/loading.png"
 					},
 					{
-						"id": "tmp1435701899923",
+						"id": "tmp1435961416543",
 						"name": "trunk1",
 						"x": 0,
 						"y": 0,
@@ -1961,7 +1954,7 @@ window.mt = window.mt || {}; window.mt.data = {
 						"angle": 0,
 						"contents": [
 							{
-								"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+								"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 								"x": 0,
 								"y": 0,
 								"type": 0,
@@ -1982,15 +1975,14 @@ window.mt = window.mt || {}; window.mt.data = {
 								"width": 480,
 								"height": 120,
 								"frameName": "",
-								"id": "tmp1435701899917",
-								"name": "trunk4",
+								"id": "tmp1435961416537",
+								"name": "trunk5",
 								"index": -1,
-								"fullPath": "/Loading/trunk1/trunk4",
-								"isClosed": true,
+								"fullPath": "/Loading/trunk1/trunk5",
 								"assetKey": "/trunk.png"
 							},
 							{
-								"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+								"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 								"x": 0,
 								"y": 120,
 								"type": 0,
@@ -2011,15 +2003,14 @@ window.mt = window.mt || {}; window.mt.data = {
 								"width": 480,
 								"height": 120,
 								"frameName": "",
-								"id": "tmp1435701899918",
-								"name": "trunk3",
+								"id": "tmp1435961416538",
+								"name": "trunk4",
 								"index": -1,
-								"fullPath": "/Loading/trunk1/trunk3",
-								"isClosed": true,
+								"fullPath": "/Loading/trunk1/trunk4",
 								"assetKey": "/trunk.png"
 							},
 							{
-								"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+								"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 								"x": 0,
 								"y": 240,
 								"type": 0,
@@ -2040,15 +2031,14 @@ window.mt = window.mt || {}; window.mt.data = {
 								"width": 480,
 								"height": 120,
 								"frameName": "",
-								"id": "tmp1435701899919",
-								"name": "trunk2",
+								"id": "tmp1435961416539",
+								"name": "trunk3",
 								"index": -1,
-								"fullPath": "/Loading/trunk1/trunk2",
-								"isClosed": true,
+								"fullPath": "/Loading/trunk1/trunk3",
 								"assetKey": "/trunk.png"
 							},
 							{
-								"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+								"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 								"x": 0,
 								"y": 360,
 								"type": 0,
@@ -2069,15 +2059,14 @@ window.mt = window.mt || {}; window.mt.data = {
 								"width": 480,
 								"height": 120,
 								"frameName": "",
-								"id": "tmp1435701899920",
-								"name": "trunk1",
+								"id": "tmp1435961416540",
+								"name": "trunk2",
 								"index": -1,
-								"fullPath": "/Loading/trunk1/trunk1",
-								"isClosed": true,
+								"fullPath": "/Loading/trunk1/trunk2",
 								"assetKey": "/trunk.png"
 							},
 							{
-								"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
+								"assetId": "4ae4261f-ff9a-4f33-b391-eb312fd2ac73",
 								"x": 0,
 								"y": 480,
 								"type": 0,
@@ -2098,11 +2087,10 @@ window.mt = window.mt || {}; window.mt.data = {
 								"width": 480,
 								"height": 120,
 								"frameName": "",
-								"id": "tmp1435701899921",
-								"name": "trunk",
+								"id": "tmp1435961416541",
+								"name": "trunk1",
 								"index": -1,
-								"fullPath": "/Loading/trunk1/trunk",
-								"isClosed": true,
+								"fullPath": "/Loading/trunk1/trunk1",
 								"assetKey": "/trunk.png"
 							}
 						],
@@ -2127,11 +2115,7 @@ window.mt = window.mt || {}; window.mt.data = {
 								"subdata": []
 							}
 						},
-						"assetId": "ea4f4a2b-0eda-4a10-a54a-19280608e366",
-						"frame": 4,
-						"frameName": "",
-						"index": -1,
-						"assetKey": "/trunk.png"
+						"index": -1
 					},
 					{
 						"id": "tmp1435701899938",
@@ -2285,7 +2269,7 @@ window.mt = window.mt || {}; window.mt.data = {
 				"isLocked": true,
 				"isFixedToCamera": 0,
 				"fullPath": "/Loading",
-				"isClosed": true,
+				"isClosed": false,
 				"movies": {
 					"__main": {
 						"frames": [],
@@ -2306,8 +2290,8 @@ window.mt = window.mt || {}; window.mt.data = {
 		"count": 0
 	},
 	"map": {
-		"cameraX": -489.28571428571433,
-		"cameraY": 91.99999999999996,
+		"cameraX": -325,
+		"cameraY": -210.50000000000006,
 		"worldWidth": 480,
 		"worldHeight": 720,
 		"viewportWidth": 480,
